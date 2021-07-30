@@ -23,6 +23,15 @@ input[type="button"]
    width: 75px;
    text-align: center;
 }
+#equal{
+    background-color: rgb(244, 248, 0);
+    color: rgb(8, 8, 8);
+    font-weight: bolder;
+}
+
+#equal:hover{
+    background-color:rgb(132, 139, 27) ;
+}
 
 #sign{
     color: rgb(6, 204, 32);
