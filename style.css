@@ -1,40 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+  }
+ 
 body{
-background: url('math1.png');
+/* background: url('math1.png'); */
+background: linear-gradient(#2196f3,#e91e63);
 }
 
 
 table{
-   
-    background-color: rgb(39, 36, 36);
+    
+    background:rgba(255,255,255,0.1);
     height: 200px;
+    background: transparent;
+    background:rgba(255,255,255,0.1);
+    outline: none;
+    border: none;
+    box-shadow: 5px 5px 25px -5px rgba(1,1,1,0.5);
 }
 
 input[type="button"]
 {
     background-color: rgb(7, 7, 7);
    color: rgb(255, 255, 255);
-   border: solid black 2px;
+   /* border: solid black 2px; */
    width: 100%;
    height: 50px;
    font-size: 30px;
    border-radius: 20px;
    cursor : pointer;
+   background: transparent;
+   outline: none;
+   border: none;
    height: 80px;
    width: 75px;
    text-align: center;
 }
 #equal{
-    background-color: rgb(244, 248, 0);
-    color: rgb(8, 8, 8);
+    
     font-weight: bolder;
 }
 
 #equal:hover{
-    background-color:rgb(132, 139, 27) ;
+    background-color:rgb(139, 245, 139) ;
 }
 
 #sign{
-    color: rgb(6, 204, 32);
+    color: rgb(255, 255, 255);
     font-weight: bold;
 }
 
@@ -48,18 +64,21 @@ input[type="button"]
 }
 
 input[type="button"]:hover{
-    background-color: rgb(82, 76, 76);
-   color: rgb(255, 254, 254);
+    background:rgba(255,255,255,0.1);
+   color: rgb(0, 0, 0);
 }
 input[type="text"]{
-    background-color: rgb(119, 104, 104);
-    border: solid black 2px;
+    /* background-color: rgb(119, 104, 104); */
+    background: transparent;
+    /* border: solid black 2px; */
+    border:none;
     width: 98%;
     height: 50px;
     font-size: 30px;
     color: rgb(255, 249, 249);
     border-radius: 20px;
     font-weight: bold;
+    margin-left:15px
    
 }
 #c-btn{
