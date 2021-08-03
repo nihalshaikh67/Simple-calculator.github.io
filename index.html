@@ -16,11 +16,18 @@
 
             <div class="center">
      
-                <table class="table1" style="width: 380px;height: 600px;">
+                <table class="table1" style="width: 260px;height: 420px;">
                  <tr>
-                     <td colspan="3"><input type="text" id="result"></td>
-                     <td><input type="button" value="C" id="c-btn" onclick="clr()" /> </td>
+                     <td colspan="4"><input type="text" id="result"></td>
+                   
                  </tr>
+                 <tr>
+                     
+                    <td><input type="button" value="(" onclick="view('(')"></td>
+                    <td><input type="button" value=")" onclick="view(')')"></td>
+                    <td><input type="button" value="C" onclick="clr()"></td>
+                    <td><input type="button" id="sign" value="%" onclick="view('%')"></td>
+                </tr>
                  <tr>
                      
                      <td><input type="button" value="1" onclick="view('1')"></td>
